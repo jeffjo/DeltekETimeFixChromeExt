@@ -1,0 +1,18 @@
+This chrome plugin fixes the annoying bug in Chrome which prevents you from looking up charge trees.
+
+The current version fixes charge tree lookup, favorities and vacation time (specific to GTRI).
+
+Also note that the manifest.json contains a matches entry that is specific to GTRI's eTime 
+application. If you are trying to use this at another company, try replacing the matches clause 
+appropriately.
+
+To install, 
+
+0. Download code to a directory on your machine
+1. Navigate to chrome://extensions
+2. Enable developer mode
+3. Click Load unpacked extension
+4. Select folder that contains code
+
+
+Enjoy! And feel free to contribute!!
