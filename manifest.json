@@ -1,0 +1,12 @@
+{
+  "name": "eTime fixer",
+  "version": "1.0",
+  "description": "This extension fixes eTime bugs in Chrome",
+  "content_scripts":[
+	{
+		"matches":["https://webwise2.gtri.gatech.edu/*"],
+		"js": ["jquery.js","fixer.js"],
+		"all_frames":true
+	}
+	]
+}
